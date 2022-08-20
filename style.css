@@ -3,12 +3,11 @@
     margin: 0;
 }
 
-/* Header */
+/* Header and Banner */
 
 .header-container {
     color: #e5e7eb;
-    height: 75vh;
-    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -34,10 +33,10 @@ ul {
 
 .banner-container {
     display: flex;
-    flex: 1 1 0;
     justify-content: space-between;
     gap: 100px;
     margin: 10vh 20vw;
+    padding: 60px 0;
 }
 
 .hero-container {
@@ -61,25 +60,25 @@ ul {
     height: auto;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 #logo, #hero, footer {
     color: #f9faf8;
 }
 
-/* Banner */
-
 /* Random Info */
 
 .random-info {
     text-align: center;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 25px;
     flex: 1;
+    padding: 70px 0;
 }
 
 .images {
@@ -107,19 +106,30 @@ ul {
     font-weight: 900;
 }
 
-
-
-
 /* Quote */
 
-#quote, #h2-random-info {
+.quote-container, #h2-random-info {
     font-size: 36px;
     color: #1f2937;
 }
 
-#quote {
+.quote-container {
     font-style: italic;
+    font-weight: 300;
     background-color: #e5e7eb;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20vw;
+    gap: 5px;
+}
+
+#author {
+    margin-left: auto;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 /* Call to Action */
